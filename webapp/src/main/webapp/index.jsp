@@ -1,31 +1,51 @@
+<!DOCTYPE html>
 <html>
-<body>
-<h1>Welcome To Cloudmaster Learning Center !!!</h1>
-<h2>This pages developed for testing purpose 2021</h2>
-</body>
-<body style="color:red;">
- <div class="container">
-    <label for="uname"><b>Username:    </b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
-<br></br>
-    <label for="psw"><b>Password:     </b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-<br></br>
-   <button type="submit">Login</button>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-h1
-{
-  color:blue;
-  text-align:center;
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
-h5
-{
-  text-align: justify;
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
 }
 </style>
-  </div>
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
+
+<div style="padding-left:16px">
+  <h2>This is from main WEBSERVER</h2>
+  <p>Some content..</p>
+</div>
+
 </body>
 </html>
-
-
-
